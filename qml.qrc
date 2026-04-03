@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/controller/QMLGamepad.qml</file>
+        <file>qml/controller/JoystickControl.qml</file>
+        <file>qml/TabBluetoothDiscovery.qml</file>
+        <file>qml/TabController.qml</file>
+        <file>qml/components/Header.qml</file>
+        <file>qml/components/BluetoothDeviceIcon.qml</file>
+        <file>qml/bluetooth_discovery/sections/Header.qml</file>
+        <file>qml/bluetooth_discovery/sections/Body.qml</file>
+        <file>qml/bluetooth_discovery/components/DeviceItemUI.ui.qml</file>
+        <file>qml/bluetooth_discovery/components/DeviceList.qml</file>
+        <file>qml/bluetooth_discovery/components/DeviceItem.qml</file>
+        <file>qml/controller/QMLGamepadUI.ui.qml</file>
+        <file>qml/controller/JoystickControlUI.ui.qml</file>
+    </qresource>
+</RCC>

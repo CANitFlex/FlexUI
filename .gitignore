@@ -1,0 +1,107 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userproj
+*.vcxproj.user
+*.sln.user
+*.xcuserstate
+*.xcuserdata/
+*.pro.user*
+.qmake.stash
+*.kate-swp
+
+# Build directories and generated files
+/build/
+/build-*/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.apk
+*.ap_
+*.a
+*.lib
+
+# Qt / QML / resources
+qmldir.cache
+qmlcache/
+qmlcache_*/
+*.qmlc
+
+# Android/Gradle / Qt Android build outputs
+android-build-*/
+android-build-*/**
+.gradle/
+local.properties
+*.keystore
+*.jks
+
+# PlatformIO / Arduino
+.pio/
+.pioenvs/
+.platformio/
+.pio/build/
+libdeps/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Node / JS
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# Xcode
+*.xcworkspace
+*.xcarchive
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Visual Studio
+.vs/
+ipch/
+*.VC.db
+*.VC.VC.opendb
+
+# Logs and temporary
+*.log
+*.tmp
+*.swp
+*~ 
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
+
+# Coverage / profiling
+coverage/
+*.lcov
+
+# Ignore large third-party build outputs (SDL builds, archives)
+lib/SDL/build*/
+lib/SDL/*.zip
+lib/SDL/*.tar.*
+
+# User local overrides (keep last to allow local untracked files)
+.env.local
+secrets.env
